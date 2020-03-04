@@ -1,8 +1,11 @@
 <template>
   <div id="app">
+    <h1>vue.js practice title</h1>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>|
+      <router-link to="/about">About</router-link>|
+      <router-link to="/test">test</router-link>|
+      <router-link to="/todo">todo</router-link>
     </div>
     <router-view />
   </div>
